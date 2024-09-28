@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Clicking Simulator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Clicking Simulator</h1>
+  <div>
+    <p>Click Count: <span id="clickCount">0</span></p>
+    <div class="button-container">
+      <button id="clickButton" class="button">Click Me</button>
+      <button id="abilityButton" class="button">Use Ability</button>
+    </div>
+    <p>Ability Count: <span id="abilityCount">0</span></p>
+    <button id="buyAbilityButton" class="button">Buy Ability (Cost: <span id="abilityCost">25</span>)</button>
+    <button id="resetButton" class="button">Reset Progress</button>
+    <button id="saveButton" class="button">Save Progress</button>
+    <p>High Score: <span id="highScore">0</span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- Update Log Sidebar -->
+<div id="updateLogSidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeUpdateLog()">×</a>
+  <h2>Update Log</h2>
+  <p>--------------<p>
+  <p>Click Sound Added</p>
+  <p>Background Music Added</p>
+  <p>Sound Preloading Implemented</p>
+  <p>Ability Cost Increased<p>
+  <p>Added UI Hover Sound<p>
+  <!-- Add more update log entries here -->
+</div>
+
+<!-- Open Button -->
+<button class="openbtn" onclick="openUpdateLog()">Update Log</button>
