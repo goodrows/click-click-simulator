@@ -9,3 +9,5 @@ this clicker game was made by goodrows v 1.0
 **have fun**
 
 *this is my first webste and I want to thank @sam51210 on GitHub helping me on this journey 💖*
+
+[info](https://goodrows.github.io/click-click-simulator/info)
