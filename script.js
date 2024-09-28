@@ -87,7 +87,7 @@ document.querySelectorAll('button').forEach(button => {
 
 clickButton.addEventListener("click", function() {
     if (clickMultiplierActive) {
-        clickCount += -746329434636473867; // 2x click multiplier during ability
+        clickCount += 999999; // 2x click multiplier during ability
     } else {
         clickCount++;
     }
@@ -124,26 +124,5 @@ resetButton.addEventListener("click", function() {
         highScore = 0;
         updateDisplays();
         localStorage.removeItem("saveData");
-    }
-});
-
-saveButton.addEventListener("click", function() {
-    var saveData = {
-        clickCount: clickCount,
-        abilityCount: abilityCount,
-        highScore: highScore
-    };
-    localStorage.setItem("saveData", JSON.stringify(saveData));
-    checkHighScore();
-});
-
-window.addEventListener("load", function() {
-    var savedData = localStorage.getItem("saveData");
-    if (savedData) {
-        var saveData = JSON.parse(savedData);
-        clickCount = saveData.clickCount;
-        abilityCount = saveData.abilityCount;
-        highScore = saveData.highScore;
-        updateDisplays();
     }
 });
