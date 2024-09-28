@@ -87,7 +87,7 @@ document.querySelectorAll('button').forEach(button => {
 
 clickButton.addEventListener("click", function() {
     if (clickMultiplierActive) {
-        clickCount += 999999; // 2x click multiplier during ability
+        clickCount += 2; // 2x click multiplier during ability
     } else {
         clickCount++;
     }
