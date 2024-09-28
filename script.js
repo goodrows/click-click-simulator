@@ -102,7 +102,7 @@ abilityButton.addEventListener("click", function() {
         setTimeout(function() {
             clickMultiplierActive = false;
             abilityButton.disabled = false;
-        }, clickMultiplierDuration * 1000);
+        }, clickMultiplierDuration * 2);
         updateDisplays();
     }
 });
