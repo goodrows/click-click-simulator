@@ -1,3 +1,5 @@
+![sky](https://github.com/user-attachments/assets/0a9d2edc-1019-48fd-a6b4-33c404737d50)
+
 this clicker game was made by goodrows
 
 v 1.0
