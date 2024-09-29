@@ -1,4 +1,6 @@
-this clicker game was made by goodrows v 1.0
+this clicker game was made by goodrows
+
+v 1.0
 
 # How to play like a pro
 - click the button shown on the screen to earn points
