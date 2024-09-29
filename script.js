@@ -120,7 +120,7 @@ resetButton.addEventListener("click", function() {
     var confirmReset = confirm("Are you sure you want to reset your progress?");
     if (confirmReset) {
         clickCount = 0;
-        abilityCount = 1;
+        abilityCount = 0;
         highScore = 0;
         updateDisplays();
         localStorage.removeItem("saveData");
