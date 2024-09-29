@@ -12,4 +12,4 @@ v 1.0
 
 *this is my first webste and I want to thank @sam51210 on GitHub helping me on this journey 💖*
 
-[info](https://goodrows.github.io/click-click-simulator/info)
+[info](https://goodrows.github.io/click-click-simulator/info.md)
