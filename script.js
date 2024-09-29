@@ -102,7 +102,7 @@ abilityButton.addEventListener("click", function() {
         setTimeout(function() {
             clickMultiplierActive = false;
             abilityButton.disabled = false;
-        }, clickMultiplierDuration * 2);
+        }, clickMultiplierDuration * 1000);
         updateDisplays();
     }
 });
@@ -120,7 +120,7 @@ resetButton.addEventListener("click", function() {
     var confirmReset = confirm("Are you sure you want to reset your progress?");
     if (confirmReset) {
         clickCount = 0;
-        abilityCount = 0;
+        abilityCount = 1;
         highScore = 0;
         updateDisplays();
         localStorage.removeItem("saveData");
